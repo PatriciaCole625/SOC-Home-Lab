@@ -33,8 +33,10 @@ This project documents the creation of a home Security Operations Center (SOC) l
 ![image1](images/image1.png)
 ![image2](images/image2.png)
 
+
 ### Step 2: Setup Virtual Machines
 Kali Linux VM configuration
+
 ![image3](images/image3.png)
 ![images4](images/image4.png)
 ![image5](images/image5.png)
@@ -42,6 +44,7 @@ Kali Linux VM configuration
 ![image7](images/image7.png)
 
 Windows 11 VM configuaration
+
 ![image8](images/image8.png)
 ![image9](images/image9.png)
 ![image10](images/image10.png)
