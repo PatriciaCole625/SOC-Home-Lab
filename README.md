@@ -27,14 +27,14 @@ This project documents the creation of a home Security Operations Center (SOC) l
 ## Methodology
 
 ### Step 1: Installing Virtual Machines
-1. Install Vmware
-2. Dowload the Kali Linux Iso and Windows Iso files
-3. Upload the Iso files to vmware
+1. Install VMware
+2. Download the Kali Linux Iso and Windows Iso files
+3. Upload the Iso files to VMware
 ![image1](images/image1.png)
 ![image2](images/image2.png)
 
 
-### Step 2: Setup Virtual Machines
+### Step 2: Set up Virtual Machines
 Kali Linux VM configuration
 
 ![image3](images/image3.png)
@@ -43,21 +43,21 @@ Kali Linux VM configuration
 ![image6](images/image6.png)
 ![image7](images/image7.png)
 
-Windows 11 VM configuaration
+Windows 11 VM configuration
 
 ![image8](images/image8.png)
 ![image9](images/image9.png)
 ![image10](images/image10.png)
 ![image11](images/image11.png)
 
-### Step 3: Put both Vm's on the same isolated network
+### Step 3: Put both VMs on the same isolated network
 ![image12](images/image12.png)
 ![image13](images/image13.png)
 
-### Step 4: Take a snap of each vm
+### Step 4: Take a snap of each VM
 ![image17](images/image17.png)
 
-### Step 4: Network Configuration and Connectivity
+### Step 5: Network Configuration and Connectivity
 1. Verify IP addresses using `ifconfig` and `ipconfig`
 2. Initial ICMP traffic was blocked by Windows Firewall, so I created a firewall rule to allow ICMP activity
 3. Confirmed connectivity using `ping`
