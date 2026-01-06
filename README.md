@@ -23,12 +23,44 @@ This project documents the creation of a home Security Operations Center (SOC) l
 - CPU: 2 cores
 - Network Adapter: Host-Only
 
-## Network Configuration
-- Verified IP addresses using `ifconfig` and `ipconfig`
-- Initial ICMP traffic was blocked by Windows Firewall
-- Created a firewall rule to allow ICMP
-- Confirmed connectivity using `ping`
 
+## Methodology
+
+### Step 1: Installing Virtual Machines
+1. Install Vmware
+2. Dowload the Kali Linux Iso and Windows Iso files
+3. Upload the Iso files to vmware
+![image1](images/image1.png)
+![image2](images/image2.png)
+
+### Step 2: Setup Virtual Machines
+Kali Linux VM configuration
+![image3](images/image3.png)
+![images4](images/image4.png)
+![image5](images/image5.png)
+![image6](images/image6.png)
+![image7](images/image7.png)
+
+Windows 11 VM configuaration
+![image8](images/image8.png)
+![image9](images/image9.png)
+![image10](images/image10.png)
+![image11](images/image11.png)
+
+### Step 3: Put both Vm's on the same isolated network
+![image12](images/image12.png)
+![image13](images/image13.png)
+
+### Step 4: Take a snap of each vm
+![image17](images/image17.png)
+
+### Step 4: Network Configuration and Connectivity
+1. Verify IP addresses using `ifconfig` and `ipconfig`
+2. Initial ICMP traffic was blocked by Windows Firewall, so I created a firewall rule to allow ICMP activity
+3. Confirmed connectivity using `ping`
+![image14](images/image14.png)
+![image15](images/image15.png)
+![image16](images/image16.png)
 
 ## Security Purpose
 This lab supports:
@@ -41,3 +73,9 @@ A fully functional home SOC lab capable of supporting security testing, monitori
 
 ⚠️ All IP addresses have been redacted.  
 This lab was conducted in a controlled environment for educational purposes.
+
+## Future Enhancements
+- Siem Integration
+- Virtual Firewall
+- Alerting Rules
+- Attack Simulations
