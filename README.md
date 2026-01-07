@@ -41,7 +41,7 @@ Kali Linux VM configuration
 ![images4](images/image4.png)
 ![image5](images/image5.png)
 ![image6](images/image6.png)
-![image7](images/image7.png)
+![update_kali](images/update_kali.png)
 
 Windows 11 VM configuration
 
@@ -61,9 +61,9 @@ Windows 11 VM configuration
 1. Verify IP addresses using `ifconfig` and `ipconfig`
 2. Initial ICMP traffic was blocked by Windows Firewall, so I created a firewall rule to allow ICMP activity
 3. Confirmed connectivity using `ping`
-![image14](images/image14.png)
-![image15](images/image15.png)
-![image16](images/image16.png)
+![firewall_rule](images/firewall_rule.png)
+![windows_ping](images/windows_ping.png)
+![kali_ping](images/kali_ping.png)
 
 ## Security Purpose
 This lab supports:
