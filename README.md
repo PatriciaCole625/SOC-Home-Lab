@@ -30,32 +30,32 @@ This project documents the creation of a home Security Operations Center (SOC) l
 1. Install VMware
 2. Download the Kali Linux Iso and Windows Iso files
 3. Upload the Iso files to VMware
-![image1](images/image1.png)
-![image2](images/image2.png)
+![install_iso](images/install_iso.png)
+![upload_vm](images/upload_vm.png)
 
 
 ### Step 2: Set up Virtual Machines
 Kali Linux VM configuration
 
-![image3](images/image3.png)
-![images4](images/image4.png)
-![image5](images/image5.png)
-![image6](images/image6.png)
+![configure_kali1](images/configure_kali1.png)
+![configure_kali2](images/configure_kali2.png)
+![installation_complete](images/installation_complete.png)
+![kali_login](images/kali_login.png)
 ![update_kali](images/update_kali.png)
 
 Windows 11 VM configuration
 
-![image8](images/image8.png)
-![image9](images/image9.png)
-![image10](images/image10.png)
-![image11](images/image11.png)
+![configure_windows](images/configure_windows.png)
+![configure_windows2](images/configure_windows2.png)
+![configure_windows3](images/configure_windows3.png)
+![windows_vm](images/windows_vm.png)
 
 ### Step 3: Put both VMs on the same isolated network
-![image12](images/image12.png)
-![image13](images/image13.png)
+![windows_network](images/windows_network.png)
+![kali_network](images/kali_network.png)
 
 ### Step 4: Take a snap of each VM
-![image17](images/image17.png)
+![vm_snapshot](images/vm_snapshot.png)
 
 ### Step 5: Network Configuration and Connectivity
 1. Verify IP addresses using `ifconfig` and `ipconfig`
